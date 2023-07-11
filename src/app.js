@@ -25,5 +25,7 @@ let excusa = () => {
   let action1 = Math.floor(Math.random() * action.length);
   let what1 = Math.floor(Math.random() * what.length);
   let when1 = Math.floor(Math.random() * when.length);
-  return who[who1] + action[action1] + what[what1] + when[when1];
+  return (
+    who[who1] + " " + action[action1] + " " + what[what1] + " " + when[when1]
+  );
 };
